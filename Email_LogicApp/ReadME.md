@@ -31,15 +31,13 @@
     </ul>
     <h3><li> Trigger Logic App in ADF Pipelines</li></h3>
     <ul>
-        <li> Open the pipeline from which you want to send a mail, for suppose once the copy acitivty which copies data from Azure SQL to ADLS is done, you need to send a notification email of the status.</li> <br>
+      <li> Open the pipeline from which you want to send a mail, for suppose once the copy acitivty which copies data from Azure SQL to ADLS is done, you need to send a notification email of the status.</li> <br>
       <img width="736" alt="ADF" src="https://user-images.githubusercontent.com/69635670/218277368-eaf18452-f843-4c03-b4e5-f66ae262defc.png"><br>
+      <li> Create a web activity, provide the HTTP URL that is generated in Logic App and provide the BODY details</li>
+        
+        {
+          "to":"...@gmail.com",
+          "subject":"This is the Subject",
+          "email_body":"This is sample Body"
+        }
       
-      <li> Create a web activity, provide the HTTP URL that is generated in Logic App and provide the BODY details<br>
-        {<br>
-        "to":"...@gmail.com",<br>
-        "subject":"This is the Subject",<br>
-        "email_body":"This is sample Body"<br>
-        }</li>
-    <ul>
-</ol>
-
