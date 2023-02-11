@@ -15,7 +15,7 @@
     <ul>
         <li> Select subscription, Resource Group and enter the logic app name</li>
         <li> If you're using this as an entry-level select <b>consumption</b> as your Plan Type, which will make sure you pay only when you use it. Rest you can leave as it is or modify if required, and you're good to create the logic app</li>
-        <img src = "opening_window.png">
+        ![alt text](https://github.com/Nagh-DE/Azure-DE/blob/main/Email_LogicApp/opening_window.png?raw=true)
         <li> There are many pre-defined templates that are available, use a blank page to send an email</li>
         <li> Search with <b>Request </b> in search bar and select Request, which opens a new window that will ask you to select Trigger and an Action. 
             Every app that you select will contain <br> 
