@@ -21,7 +21,7 @@
             Every app that you select will contain <br> 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trigger: which defines what is the triggering logic.<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Action: which defines what action should it perform when the app is triggered.</li>
-        <img src = "Request.png">
+        <img src = "Email_LogicApp/Request.png">
         <li> Select <b> When a HTTP Request is received</b>, HTTP URL will be generated once the logic app is saved. Now the important part of the complete proccess is to define the body of request. Define schema i.e. what are the parameters that you want to pass in the Email like Recipient Mail ID, Subject Line, Message body. For this the best way is to Use Sample payload to generate schema and add parameter --> Method and select the POST method.</li>
         <img src = "request_schema.png">
         <li> Now add new step and search with gmail and select <b> Send Email</b>, provide a connection name and use default shared application as authentication type and sign in into your account </li>
